@@ -25,6 +25,9 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/migrate_plus": "^4",
+        "drupal/migrate_tools": "^4",
+        "drupal/migrate_upgrade": "^3",
         "drush/drush": "^10.1",
         "interconnectit/search-replace-db": "4.0.x-dev",
         "roundearth/civicrm-composer-plugin": "*"
