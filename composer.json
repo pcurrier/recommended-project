@@ -16,6 +16,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/pcurrier/Search-Replace-DB"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/pcurrier/civicrm-composer-plugin"
         }
     ],
     "require": {
@@ -30,7 +34,7 @@
         "drupal/migrate_upgrade": "^3",
         "drush/drush": "^10.1",
         "interconnectit/search-replace-db": "4.0.x-dev",
-        "roundearth/civicrm-composer-plugin": "*"
+        "roundearth/civicrm-composer-plugin": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8"
@@ -46,6 +50,40 @@
         "autoloader-suffix": "Drupal8"
     },
     "extra": {
+        "civicrm": {
+            "extensions": {
+                "mjwshared": {},
+                "ca.civicrm.logviewer": {},
+                "com.drastikbydesign.stripe": {},
+                "com.joineryhq.percentagepricesetfield": {},
+                "com.pogstone.fancytokens": {},
+                "eu.tttp.noverwrite": {},
+                "net.ourpowerbase.sumfields": {},
+                "nz.co.fuzion.civitoken": {},
+                "nz.co.fuzion.csvimport": {},
+                "nz.co.fuzion.extendedreport": {},
+                "org.civicoop.civirules": {},
+                "org.civicrm.angularprofiles": {},
+                "org.civicrm.doctorwhen": { "url": "https://github.com/civicrm/org.civicrm.doctorwhen/archive/master.zip" },
+                "org.civicrm.flexmailer": {},
+                "org.civicrm.module.cividiscount": {},
+                "org.civicrm.shoreditch": { "url": "https://github.com/civicrm/org.civicrm.shoreditch/archive/master.zip" },
+                "org.civicrm.sms.clickatell": {},
+                "org.civicrm.sms.twilio": {},
+                "uk.co.compucorp.civicrm.pivotreport": {},
+                "uk.co.vedaconsulting.mosaico": {},
+                "uk.co.vedaconsulting.suppressblankaddress": { "url": "https://github.com/veda-consulting/uk.co.vedaconsulting.suppressblankaddress/archive/master.zip" },
+                "org.civicrm.api4": {},
+                "com.iatspayments.civicrm": {},
+                "com.civifirst.phonenumbervalidator": {},
+                "ca.bidon.imagecrop": {},
+                "ca.bidon.reporterror": {},
+                "com.aghstrategies.slicknav": {},
+                "com.aghstrategies.uscounties": {},
+                "com.pogstone.contenttokens": {},
+                "net.ourpowerbase.report.advancedfundraising": {}
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
