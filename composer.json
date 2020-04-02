@@ -85,12 +85,10 @@
                 "uk.co.compucorp.civicrm.pivotreport": {},
                 "uk.co.vedaconsulting.mosaico": {},
                 "uk.co.vedaconsulting.suppressblankaddress": { "url": "https://github.com/veda-consulting/uk.co.vedaconsulting.suppressblankaddress/archive/master.zip" },
-                "org.civicrm.api4": {},
                 "com.iatspayments.civicrm": {},
                 "com.civifirst.phonenumbervalidator": {},
                 "ca.bidon.imagecrop": {},
                 "ca.bidon.reporterror": {},
-                "com.aghstrategies.slicknav": {},
                 "com.aghstrategies.uscounties": {},
                 "com.pogstone.contenttokens": {},
                 "net.ourpowerbase.report.advancedfundraising": {}
